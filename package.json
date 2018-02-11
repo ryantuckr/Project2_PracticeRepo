@@ -1,0 +1,35 @@
+{
+  "name": "proj2practice",
+  "version": "1.0.0",
+  "description": "This is package json for our practice repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natroberts19/Project2_PracticeRepo.git"
+  },
+  "keywords": [
+    "git",
+    "project"
+  ],
+  "author": "Natalie Roberts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natroberts19/Project2_PracticeRepo/issues"
+  },
+  "homepage": "https://github.com/natroberts19/Project2_PracticeRepo#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.2",
+    "nodemon": "^1.14.12",
+    "path": "^0.12.7",
+    "sequelize": "^4.33.3"
+  }
+}
